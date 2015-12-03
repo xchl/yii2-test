@@ -1,0 +1,21 @@
+{
+    "name": "xchl/yii2-test",
+    "description": "xchl-test",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "binks",
+            "email": "xuchengliang@outlook.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "xchl\\test\\": ""
+        }
+    }
+}
